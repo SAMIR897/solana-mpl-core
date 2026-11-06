@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build and distribution outputs
+dist/
+build/
+out/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+*.env
+keys/
+*.pem
+*.key
+id.json
+payer.json
+recipient.json
+
+# Local runtime state and caches
+state.json
+SUBMISSION_SOCIAL_POST.md
+*.draft.md
+.cache/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and Editor files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
